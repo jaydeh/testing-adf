@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "for-testing-purposes"
 		},
-		"Test_1_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'Test_1'"
-		},
 		"AzureFunction1_functionKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'functionKey' of 'AzureFunction1'"
+		},
+		"Test_1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Test_1'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"Test_1_connectionString": {
-						"value": "[parameters('Test_1_connectionString')]"
-					},
 					"AzureFunction1_functionKey": {
 						"value": "[parameters('AzureFunction1_functionKey')]"
+					},
+					"Test_1_connectionString": {
+						"value": "[parameters('Test_1_connectionString')]"
 					}
 				}
 			},

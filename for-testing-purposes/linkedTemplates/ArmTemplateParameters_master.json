@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "for-testing-purposes"
 		},
-		"Test_1_connectionString": {
+		"AzureFunction1_functionKey": {
 			"value": ""
 		},
-		"AzureFunction1_functionKey": {
+		"Test_1_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
