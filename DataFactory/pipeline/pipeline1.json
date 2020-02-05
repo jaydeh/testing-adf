@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "ASd",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -37,11 +37,11 @@
 				]
 			},
 			{
-				"name": "Azure Function1",
+				"name": "qwe",
 				"type": "AzureFunctionActivity",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "ASd",
 						"dependencyConditions": [
 							"Succeeded"
 						]
